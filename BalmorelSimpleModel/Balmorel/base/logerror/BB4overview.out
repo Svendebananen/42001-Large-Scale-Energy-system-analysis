@@ -1,18 +1,14 @@
-Overview of input data characteristics of the BalBase4 model in Balmorel.   06/15/26  10:59:22
+Overview of input data characteristics of the BalBase4 model in Balmorel.   06/15/26  18:04:08
 General overview of input data may be found in inputout.out
 The information printed here is valid only if the input is consistent, please verify this, e.g. see the errors.out file first.
 
-Years to be represented in models are subsets of Y: 2025  2030  2035
+Years to be represented in models are subsets of Y: 2050
 
 There is only one year in each Balbase4 model.
 
-Balbase4 model number  1 is formulated over the years: 2025
+Balbase4 model number  1 is formulated over the years: 2050
 
-Balbase4 model number  2 is formulated over the years: 2030
-
-Balbase4 model number  3 is formulated over the years: 2035
-
-There are  3 BB4 models.
+There are  1 BB4 models.
 
 The model is run with endogenous investments in generation technologies.
 
