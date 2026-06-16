@@ -19,5 +19,8 @@
 # **/model/Balmorel.l*
 # **/output/economic/*.*
 # /base/bui/gamsscr/*.*
-
+# GAMS output files - too large for GitHub
+*.lst
+*.gdx
+*.~gm
 
