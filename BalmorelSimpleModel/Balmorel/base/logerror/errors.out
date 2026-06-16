@@ -2,12 +2,6 @@
 The input data was investigated for obvious errors.
 Investigation is only performed for data that are to be included in the model.
 
-Electricity third regions variation X3FX_VAR_T must have positive values for all RRR, it seems not to have for DK1
-Electricity third regions variation X3FX_VAR_T must have positive values for all RRR, it seems not to have for DK2
-Electricity third regions variation X3FX_VAR_T must have positive values for all RRR, it seems not to have for NO1
-Electricity third regions variation X3FX_VAR_T must have positive values for all RRR, it seems not to have for NO3
-Electricity third regions variation X3FX_VAR_T must have positive values for all RRR, it seems not to have for NO4
-#
 Possible Error: The Full Load Hours calculated on (S,T) from the variation profile DE_VAR_T is not close to the Full Load Hours calculated on (SSS,TTT) for region DK2                             , user group RESE        : 5799 against 5214: The electricity demand variation DE_VAR_T(,,S,T) appears mostly to be closer to the peak than expected from DE_VAR_T(,,SSS,TTT).
 Possible Error: The Full Load Hours calculated on (S,T) from the variation profile DE_VAR_T is not close to the Full Load Hours calculated on (SSS,TTT) for region DK2                             , user group OTHER       : 5799 against 5214: The electricity demand variation DE_VAR_T(,,S,T) appears mostly to be closer to the peak than expected from DE_VAR_T(,,SSS,TTT).
 Possible Error: The Full Load Hours calculated on (S,T) from the variation profile DE_VAR_T is not close to the Full Load Hours calculated on (SSS,TTT) for region NO3                             , user group RESE        : 5532 against 4938: The electricity demand variation DE_VAR_T(,,S,T) appears mostly to be closer to the peak than expected from DE_VAR_T(,,SSS,TTT).
@@ -171,8 +165,16 @@ Error in table GDATA:   The GDLIFETIME value for technology GNR_ENG_RETORT-GAS_E
 Error in table GDATA:   The GDLIFETIME value for technology GNR_IND-DF_ELEC_E-100_MS-5-MW_Y- must be a positive integer, value is        12.50.
 #
 
-  111 errors were detected in the input data before simulation.
+  106 errors were detected in the input data before simulation.
 See the file error2.inc for details about the error.
+
+BB4: Presently there are only rudimentaty checks on the solution - TODO
+
+BB4: Presently there are only rudimentaty checks on the solution - TODO
+
+BB4: Presently there are only rudimentaty checks on the solution - TODO
+
+BB4: Presently there are only rudimentaty checks on the solution - TODO
 
 BB4: Presently there are only rudimentaty checks on the solution - TODO
 

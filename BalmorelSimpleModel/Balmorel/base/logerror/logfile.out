@@ -31,9 +31,37 @@ Some Balmorel errors were detected in the input data before simulation. See the 
 
 Solver status of the BALBASE4 model
 
-   1, at most, models to be solved.
+   5, at most, models to be solved.
 See details of input data in output\inputout\inputout.out (if associated option is set), and in particular for BB4 see output\inputout\BB4overview.out.
 
 Year    Model status returned     Solver status returned          Obj. fct. value  Iter. used  No of infeas No of nonopt
         (Now to first SOLVE statement)
-2050    Optimal                      Normal completion              4994145963.31          88            0             0
+2030    Optimal                      Normal completion             18188046449.13          81            0             0
+        Model was over years 2030
+* ------------------------------------------------------------------------------
+
+Since BB4 is presently in developments phase, not all addons are reimplemented for this, and those that are may be only preliminary, so be careful.
+* ------------------------------------------------------------------------------
+
+2035    Optimal                      Normal completion             16167736727.07          78            0             0
+        Model was over years 2035
+* ------------------------------------------------------------------------------
+
+Since BB4 is presently in developments phase, not all addons are reimplemented for this, and those that are may be only preliminary, so be careful.
+* ------------------------------------------------------------------------------
+
+2040    Optimal                      Normal completion             15951921808.18          95            0             0
+        Model was over years 2040
+* ------------------------------------------------------------------------------
+
+Since BB4 is presently in developments phase, not all addons are reimplemented for this, and those that are may be only preliminary, so be careful.
+* ------------------------------------------------------------------------------
+
+2045    Optimal                      Normal completion             14746854613.84         103            0             0
+        Model was over years 2045
+* ------------------------------------------------------------------------------
+
+Since BB4 is presently in developments phase, not all addons are reimplemented for this, and those that are may be only preliminary, so be careful.
+* ------------------------------------------------------------------------------
+
+2050    Optimal                      Normal completion             12544008546.81         124            0             0
