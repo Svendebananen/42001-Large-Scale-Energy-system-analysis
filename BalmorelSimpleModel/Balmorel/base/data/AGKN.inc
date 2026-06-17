@@ -565,3 +565,39 @@ AGKN('NO5_A2', 'GNR_ENG_BGAS_CND_E-43_Y-2020') = YES;
 AGKN('NO5_A2', 'GNR_ENG_BGAS_CND_E-45_Y-2030') = YES;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 AGKN('NO5_A2', 'GNR_ENG_BGAS_CND_E-46_Y-2040') = YES;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 AGKN('NO5_A2', 'GNR_ENG_BGAS_CND_E-47_Y-2050') = YES;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+*==============================================================================
+* Allow ALL battery technologies for investment EVERYWHERE (all AAA areas)
+*==============================================================================
+
+* --- Lead-acid (obsolete, kept for robustness/sensitivity per prior decision) ---
+AGKN(AAA,'GNR_ES_ELEC_BAT-LEAD_E-82_Y-2020')=YES;
+AGKN(AAA,'GNR_ES_ELEC_BAT-LEAD_E-85_Y-2030')=YES;
+
+* --- Lithium-ion GRID (6h) ---
+AGKN(AAA,'GNR_ES_ELEC_BAT-LITHIO-GRID_E-86_Y-2020')=YES;
+AGKN(AAA,'GNR_ES_ELEC_BAT-LITHIO-GRID_E-86_Y-2030')=YES;
+AGKN(AAA,'GNR_ES_ELEC_BAT-LITHIO-GRID_E-86_Y-2040')=YES;
+AGKN(AAA,'GNR_ES_ELEC_BAT-LITHIO-GRID_E-86_Y-2050')=YES;
+
+* --- Lithium-ion PEAK (4h) ---
+AGKN(AAA,'GNR_ES_ELEC_BAT-LITHIO-PEAK_E-86_Y-2020')=YES;
+AGKN(AAA,'GNR_ES_ELEC_BAT-LITHIO-PEAK_E-86_Y-2030')=YES;
+AGKN(AAA,'GNR_ES_ELEC_BAT-LITHIO-PEAK_E-86_Y-2040')=YES;
+AGKN(AAA,'GNR_ES_ELEC_BAT-LITHIO-PEAK_E-86_Y-2050')=YES;
+
+* --- Sodium-Sulfur (NaS) ---
+AGKN(AAA,'GNR_ES_ELEC_BAT-NAS_E-80_Y-2020')=YES;
+AGKN(AAA,'GNR_ES_ELEC_BAT-NAS_E-85_Y-2030')=YES;
+AGKN(AAA,'GNR_ES_ELEC_BAT-NAS_E-85_Y-2050')=YES;
+
+* --- Vanadium Redox Flow Battery (VRFB) ---
+AGKN(AAA,'GNR_ES_ELEC_BAT-VRFB_E-78_Y-2020')=YES;
+AGKN(AAA,'GNR_ES_ELEC_BAT-VRFB_E-78_Y-2030')=YES;
+AGKN(AAA,'GNR_ES_ELEC_BAT-VRFB_E-78_Y-2040')=YES;
+AGKN(AAA,'GNR_ES_ELEC_BAT-VRFB_E-78_Y-2050')=YES;
+
+* --- Sodium-ion ---
+AGKN(AAA,'GNR_ES_ELEC_BAT-SODIUM-ION_Y-2030')=YES;
+AGKN(AAA,'GNR_ES_ELEC_BAT-SODIUM-ION_Y-2040')=YES;
+AGKN(AAA,'GNR_ES_ELEC_BAT-SODIUM-ION_Y-2050')=YES;
