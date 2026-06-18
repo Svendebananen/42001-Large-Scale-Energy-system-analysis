@@ -21,6 +21,8 @@
 # /base/bui/gamsscr/*.*
 # GAMS output files - too large for GitHub
 *.lst
-*.gdx
+**/*.gdx
+!**/MainResults.gdx
+!**/MainResults_*.gdx
 *.~gm
 
